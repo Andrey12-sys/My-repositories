@@ -1,2 +1,1 @@
-my-project/
-*.tmp
+blablabla
