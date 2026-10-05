@@ -9,4 +9,4 @@
 - [BashScripting](Bash/Readme.md)
 - [Git](Git.md)
 - [Самостоятельная по BashScripting](Bash/BashHomeWork/Readme.md)
-- [Мой сайт](https://vovych33.github.io/My_site/)
+- [Мой сайт](https://keftemne.github.io/My_site/)
