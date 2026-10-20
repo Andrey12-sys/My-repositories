@@ -27,3 +27,5 @@
 - [Репозиторий сайта (исходный код)](https://github.com/Andrey12-sys/My-repositories)
 
 Главная страница сайта: [index.html](./index.html).
+
+Подробное описание проекта, навигация и инструкция по GitHub Pages: **[README сайта](./README-site.md)**.
