@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Учебные материалы по Git, Bash, Markdown и Mermaid.">
+  <title>Учебные материалы — Andrey12-sys</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1220; --surface:#151f32; --ink:#eef5ff; --muted:#aebbd0; --line:#2b3b55; --accent:#70d5ff; --green:#98f5c4 }
+    * { box-sizing:border-box }
+    html { scroll-behavior:smooth }
+    body { margin:0; font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; background:radial-gradient(ellipse at top right,#1c3a5a 0%,var(--bg) 48%); color:var(--ink) }
+    a { color:inherit; text-decoration:none }
+    a:focus-visible { outline:3px solid var(--accent); outline-offset:4px; border-radius:5px }
+    .wrap { width:min(1050px,calc(100% - 40px)); margin:auto }
+    header { border-bottom:1px solid var(--line); background:#0b1220bb }
+    .top { display:flex; justify-content:space-between; align-items:center; gap:18px; padding:19px 0 }
+    .brand { font-weight:750; letter-spacing:.02em }
+    .top a:last-child { color:var(--accent); font-weight:650 }
+    .hero { padding:90px 0 55px }
+    .eyebrow { color:var(--green); font-weight:750; letter-spacing:.11em; text-transform:uppercase; font-size:.8rem }
+    h1 { font-size:clamp(2.3rem,6vw,4.3rem); letter-spacing:-.04em; line-height:1.13; margin:16px 0 18px; max-width:850px }
+    .lead { font-size:1.12rem; max-width:670px; color:var(--muted) }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px }
+    .btn { display:inline-block; border:1px solid var(--line); border-radius:12px; padding:12px 19px; font-weight:700; transition:transform .2s,background .2s }
+    .btn:hover { transform:translateY(-2px); background:#223049 }
+    .btn-primary { color:#08121f; background:var(--accent); border-color:var(--accent) }
+    .btn-primary:hover { background:#a0e5ff }
+    section { padding:23px 0 56px }
+    h2 { margin:0 0 20px; font-size:1.55rem }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px }
+    .card { display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--line); border-radius:17px; padding:23px; min-height:191px; transition:border-color .2s,transform .2s }
+    .card:hover { border-color:var(--accent); transform:translateY(-3px) }
+    .icon { font-size:1.7rem }
+    .card h3 { margin:12px 0 5px; font-size:1.15rem }
+    .card p { margin:0 0 12px; color:var(--muted); font-size:.96rem; flex:1 }
+    .arrow { color:var(--accent); font-weight:700 }
+    .tasks { background:#111c2e; border:1px solid var(--line); border-radius:17px; padding:24px }
+    .task-links { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px }
+    .task-links a { padding:9px 13px; background:#213049; border-radius:9px; color:#dceaff }
+    .task-links a:hover { background:#2c496c }
+    footer { color:var(--muted); border-top:1px solid var(--line); margin-top:16px; padding:26px 0 35px }
+    footer a { color:var(--accent) }
+    @media(max-width:760px) { .hero { padding:64px 0 34px } .grid { grid-template-columns:1fr 1fr } }
+    @media(max-width:500px) { .grid { grid-template-columns:1fr } .top { align-items:flex-start; flex-direction:column } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap top"><a class="brand" href="./">📘 Учебные материалы</a><a href="https://github.com/Andrey12-sys/My-repositories">Исходный код на GitHub ↗</a></div>
+  </header>
+  <main class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Учебный проект · Andrey12-sys</div>
+      <h1>Git, Bash, Markdown и Mermaid — в одном месте.</h1>
+      <p class="lead">Заметки, примеры и практические задания по работе с командной строкой, Git и оформлению технической документации.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#materials">Смотреть материалы ↓</a>
+        <a class="btn" href="https://github.com/Andrey12-sys/My-repositories">Репозиторий сайта ↗</a>
+      </div>
+    </div>
+    <section id="materials" aria-labelledby="materials-title">
+      <h2 id="materials-title">Материалы</h2>
+      <div class="grid">
+        <a class="card" href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/markdown.md"><span class="icon">✍️</span><h3>Markdown</h3><p>Заголовки, списки, ссылки и форматирование текста.</p><span class="arrow">Открыть ↗</span></a>
+        <a class="card" href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/mermaid.md"><span class="icon">🔀</span><h3>Mermaid</h3><p>Диаграммы и блок-схемы с помощью кода.</p><span class="arrow">Открыть ↗</span></a>
+        <a class="card" href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/git.md"><span class="icon">🌿</span><h3>Git</h3><p>Система контроля версий и основные команды.</p><span class="arrow">Открыть ↗</span></a>
+        <a class="card" href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/Bash.md"><span class="icon">💻</span><h3>Bash / CLI</h3><p>Командная строка и файловые операции.</p><span class="arrow">Открыть ↗</span></a>
+        <a class="card" href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/Linux/Bash/README.md"><span class="icon">🐧</span><h3>Linux / Bash</h3><p>Дополнительные заметки о командах и работе в терминале.</p><span class="arrow">Открыть ↗</span></a>
+        <a class="card" href="https://github.com/Andrey12-sys/My-repositories"><span class="icon">📁</span><h3>Все файлы проекта</h3><p>Исходные материалы и история изменений в GitHub.</p><span class="arrow">Перейти в репозиторий ↗</span></a>
+      </div>
+    </section>
+    <section aria-labelledby="tasks-title">
+      <div class="tasks">
+        <h2 id="tasks-title">Практика Bash</h2>
+        <p>Восемь небольших заданий с готовыми shell-скриптами.</p>
+        <div class="task-links">
+          <a href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/1_greeting.sh">1 · Приветствие</a>
+          <a href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/2_sum.sh">2 · Сумма</a>
+          <a href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/4_project_structure.sh">4 · Структура</a>
+          <a href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/5_line_count.sh">5 · Строки</a>
+          <a href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/6_password.sh">6 · Пароль</a>
+          <a href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/7_find_files.sh">7 · Поиск</a>
+          <a href="https://github.com/Andrey12-sys/My-repositories/blob/DFGDFG/8_github_stats.sh">8 · GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">Учебный проект · <a href="https://github.com/Andrey12-sys/My-repositories">Репозиторий сайта на GitHub</a></div></footer>
+</body>
+</html>
